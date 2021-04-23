@@ -16,7 +16,7 @@ class Transactions extends StatelessWidget {
               children: [
                 Text(
                   'No transactions is add!',
-                  style: Theme.of(context).textTheme.title,
+                  style: Theme.of(context).textTheme.headline6,
                 ),
                 SizedBox(
                   height: 20,
@@ -60,7 +60,7 @@ class Transactions extends StatelessWidget {
                         children: <Widget>[
                           Text(
                             _userTransactions[index].title,
-                            style: Theme.of(context).textTheme.title,
+                            style: Theme.of(context).textTheme.headline6,
                           ),
                           Text(
                             DateFormat.yMMMd()
